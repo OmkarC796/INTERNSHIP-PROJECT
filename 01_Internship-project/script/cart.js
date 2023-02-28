@@ -1,1 +1,1 @@
-// THIS IS 
+// THIS IS the cart page
