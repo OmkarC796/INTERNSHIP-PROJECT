@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="navigation">
-        <div id="menu" onclick="menuClick()">
+        <div id="menu">
             <div id="bar1" class="bar"></div>
             <div id="bar2" class="bar"></div>
             <div id="bar3" class="bar"></div>
@@ -26,12 +26,12 @@
 </html>
 <script>
 
-    // const menu = document.getElementById("menu")
-    // menu.addEventListener("click", menuClick);
+    const menu = document.getElementById("menu")
+    menu.addEventListener("click", menuClick);
 
    function menuClick() {
-    document.getElementById("menu").classList.toggle("icon");
-    document.getElementById("nav").classList.toggle("change");   
+    document.getElementById("menu").classList = "icon";
+    document.getElementById("nav").classLis = "change";   
 }
 
 </script>
